@@ -1,0 +1,24 @@
+import main
+file_info = "文件信息：\n"
+section_info = "节区信息：\n"
+shaxian_info = "沙箱信息：\n"
+import_info = "导入表信息：\n"
+debug_info = "调试信息：\n"
+tls_info = "TLS表信息：\n"
+resource_info = "资源表信息：\n"
+relocate_info = "重定位表信息：\n"
+cloud_info = "云端分析结果：\n"
+mysql_info = "数据库上传结果：\n"
+
+    def start(self):
+        main.Virus_analysis_system()
+        self.plainTextEdit.appendPlainText(file_info)
+        self.plainTextEdit.appendPlainText(section_info)
+        self.plainTextEdit.appendPlainText(shaxian_info)
+        self.plainTextEdit.appendPlainText(import_info)
+        self.plainTextEdit.appendPlainText(debug_info)
+        self.plainTextEdit.appendPlainText(tls_info)
+        self.plainTextEdit.appendPlainText(resource_info)
+        self.plainTextEdit.appendPlainText(relocate_info)
+        self.plainTextEdit.appendPlainText(cloud_info)
+        self.plainTextEdit.appendPlainText(mysql_info)
